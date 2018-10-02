@@ -1,0 +1,11 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+/* This lesson describes css syntax in regards to selectors. A css selector is simply
+the html element tag name without the angled brackets. By using this name with
+curly braces, css can select this element on the html page and change the styling. */

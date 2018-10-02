@@ -1,0 +1,38 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title .uppercase {
+  color: teal;
+  text-transform: uppercase;
+}
+
+.publish-time {
+	text-color: gray;
+}
+
+.cursive .capitalize {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+h5 {
+  color: rebeccapurple;
+}
+
+/* This lesson is about specificity and chained selectors. Because a chained
+selector is more specific in its selection of an elmenent, it has
+a higher specificity than a just a class selector or tag selector but is still
+below the ID selector in specificity. */

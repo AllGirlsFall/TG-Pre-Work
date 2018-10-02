@@ -1,0 +1,30 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title .uppercase {
+  color: teal;
+  text-transform: uppercase;
+}
+
+.publish-time {
+	text-color: gray;
+}
+
+.cursive .capitalize {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+/* This lesson is about using multiple selectors in order to change the style with
+chaining. You can chain the selectors together using a period, i.e. if paragraphs
+with a class of bold red needed styling you would first use the tag name of 'p' then
+a period and the class name of bold red after this in the css file.  */

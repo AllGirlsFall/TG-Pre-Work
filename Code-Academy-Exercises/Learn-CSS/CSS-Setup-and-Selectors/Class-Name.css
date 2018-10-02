@@ -1,0 +1,15 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title {
+  color: teal;
+}
+
+/* This lesson discusses that css selectors can also be attributes such as classes.
+In order to change the styling to an element with a class attribute a period must be
+placed in front of the class name in the stylesheet. */

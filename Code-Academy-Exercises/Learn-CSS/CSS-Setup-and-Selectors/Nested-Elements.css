@@ -1,0 +1,36 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title .uppercase {
+  color: teal;
+  text-transform: uppercase;
+}
+
+.publish-time {
+	text-color: gray;
+}
+
+.cursive .capitalize {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+/* This lesson is about how css accesses elements which are nested in html. For
+example, if an element has a class attribute you would reference the attribute
+first in the css file and then the nested tag element in order to change the style.
+In the code example above, each element with the description class is looked at
+first and then any heading with an h5 that is nested within that is styled
+accordingly. */

@@ -1,0 +1,38 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title .uppercase {
+  color: teal;
+  text-transform: uppercase;
+}
+
+.publish-time {
+	text-color: gray;
+}
+
+.cursive .capitalize {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+h5 {
+  color: rebeccapurple !important;
+}
+
+/* This lesson is about the !important flag in css which overrides all other
+selectors no matter how specific they are. Because !important is difficult to
+override it should not be used in your css file, rather you should rearrange your
+styling in order for it to be more flexible and easier to edit. */

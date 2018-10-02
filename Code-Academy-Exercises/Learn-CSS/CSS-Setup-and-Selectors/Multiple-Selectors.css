@@ -1,0 +1,42 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title .uppercase {
+  color: teal;
+  text-transform: uppercase;
+}
+
+.publish-time {
+	text-color: gray;
+}
+
+.cursive .capitalize {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+
+.description h5 {
+  color: teal;
+}
+
+h5 {
+  color: rebeccapurple !important;
+}
+
+h5, p {
+  font-family: Georgia;
+}
+
+/* This lesson is about using multiple selectors in order to prevent writing
+repetitive code. Using multiple selectors in css can be achieved by separating
+them with commas. In this way the same style can be used on multiple selectors
+all at once. */
