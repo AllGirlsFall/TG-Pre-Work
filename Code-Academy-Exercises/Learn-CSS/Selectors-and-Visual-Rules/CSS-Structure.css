@@ -1,0 +1,8 @@
+/* This lesson is about css syntax and how to write a css declaration inside the
+body of a css selector. A css declaration contains a property and a value. The
+property is what you would like to change of the element, i.e : font-family
+and the value is the value of that property. In the case of font-family the
+value would be a font like Arial (or whatever the developer chooses). The two are
+separated by a colon and a semicolon is at the end of the declaration.
+Example:  h1 {font-family: Arial;} . The entire snippet of code is called a css
+rule or rule set. */

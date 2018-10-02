@@ -1,0 +1,87 @@
+body {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #FFF;
+  font-family: Georgia;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 22px;
+  font-family: Georgia;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.byline {
+  font-family: Helvetica;
+  color: rgba(255, 255, 255, 0.5);
+  float: left;
+  font-size: 14px;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.caption {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+}
+
+.content {
+  padding: 40px;
+}
+
+.image {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.writer-img {
+  -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+  float: left;
+  width: 50px;
+}
+
+/* This lesson is about changing the typeface by changing the font-family. A few
+things to keep in mind when choosing fonts are: 1.from a design persective, it's
+best practice to use only 2-3 different fonts -- it can also help the page load
+faster. 2. The user must have the font on their computer in order to view that
+font on the webpage. 3.The default font is Times New Roman and if no font-family
+attribute is defined, the font will default to this. 4. When the name of a typeface
+consists of more than one word, it's a good idea to put it in quotes. */

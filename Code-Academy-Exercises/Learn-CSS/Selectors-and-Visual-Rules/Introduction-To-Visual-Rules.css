@@ -1,0 +1,5 @@
+/* This lesson was an introduction to css visual rules. By comparing the code
+to the webpage, it seems that the hierarchy of the css structure closely follows
+what is in the html document. The body styling is first on the page followed by
+h1,h2,h3 and so on. It also seems that elements with tag names are first and followed
+by class attributes. */
