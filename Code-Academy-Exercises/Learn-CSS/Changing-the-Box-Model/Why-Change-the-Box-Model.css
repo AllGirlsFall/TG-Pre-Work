@@ -1,0 +1,4 @@
+/* The box model is changed because it has an awkard set of limitations. Adding
+padding and margins etc. changes the width and height of the box model which makes
+it difficult to accurately size a box and therefor, over time, difficult to position
+and manage. */

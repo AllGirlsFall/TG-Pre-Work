@@ -1,0 +1,5 @@
+/* There are a lot of properties that have a default setting in css. The
+box model is one of these and can be changed using the box-sizing property to tell
+the browser the type of box it should use when intrepreting a webpage with the
+default being 'content-box'. The content-box adds the width + padding + border
+to come up with the actual rendered width of an element's box. */

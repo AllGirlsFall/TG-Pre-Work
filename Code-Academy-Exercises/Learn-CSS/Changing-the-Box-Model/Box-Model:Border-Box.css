@@ -1,0 +1,6 @@
+/* The entire box model can be reset using the border-box value
+for the box-sizing property in order to avoid the dimensional
+issues of the content-box. When using the border-box value,
+the height and width will remain fixed and the border
+thickness and padding will be included inside the box ensuring
+that the overall dimensions do not change */
