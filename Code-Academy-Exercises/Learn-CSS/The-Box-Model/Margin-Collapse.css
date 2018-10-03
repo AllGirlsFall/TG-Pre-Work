@@ -1,0 +1,7 @@
+/* This lesson explains the difference between vertical and horizontal margin areas
+and how they behave. Horizontal margins (left and right) are always displayed
+and are added together when you have two elements that are side by side and have
+margins. If two divs are next to each other they will be as far apart as the sum
+of their adjacent margins. The vertical margins (top and bottom) collapse meaning
+that whichever element has the larger margin, it will be that value that will
+set the distance. Only margins behave this way; padding is always visible. */
