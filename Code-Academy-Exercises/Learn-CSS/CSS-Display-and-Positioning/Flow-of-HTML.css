@@ -1,0 +1,6 @@
+/* Browsers render html that doesn't have css from top to bottom and left to right
+and this is called the flow of elements in HTML. CSS has properties that change
+how a browser positions elements and specify where an element is located on the
+page. The five properties for adjusting the position of HTML elements are: position,
+display, z-index, float and clear. These properties can be used in conjuction with
+other styling properties. */
