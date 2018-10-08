@@ -1,0 +1,4 @@
+/* Javascript is the programming language that enables webpages
+to be interactive. It is often one of the first programming
+languages the beginner developers learn because it is
+powerful and fast and can be used for complex web developement. */
