@@ -1,0 +1,5 @@
+/* Another way to link to non-user fonts that does not require a link tag
+in the HTML document is to load fonts using @font-face property. Instead of using
+the link in the head section you can use it in the browser. The browser loads the C
+CSS rules and you copy the latin rules. You then paste those rules at the top of
+the CSS page. */
