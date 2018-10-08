@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='style.css'></head>
+
+<body>
+  <div class="grid">
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+  </div>
+</body>
+
+</html>
+
+/* CSS code below */
+
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width:500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+  grid-row: 5 / 7;
+  grid-column: 1 / span 2;
+}
+
+.b {
+  grid-column: 2 / span 6;
+  grid-row: 2/ span 3;
+}
+
+/* The grid-column property can replace the grid-column-start and grid-column-end
+properties exactly as grid-row can. All these properties allow a grid item to
+span multiple columns of a grid. There is also another way to define the values by
+using the keyword 'span' to define how many columns or rows you want your item to
+span. First, you define where you would like your item to start and then define
+how many rows or columns you want the item to span using the keyword and the
+numerical value. This is also separated by a forward slash. */

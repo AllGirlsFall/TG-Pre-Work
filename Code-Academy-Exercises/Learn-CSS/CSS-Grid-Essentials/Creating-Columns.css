@@ -1,0 +1,20 @@
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 100px 50% 200px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* When you create a grid the default that is created is only one column.
+Grids can be defined using the grid-template-columns property. Using the
+grid-template-column property makes two changes to the grid: 1. defining the
+number of columns in the grid and 2. setting the width of the grid. The width
+of the columns can be set in pixels or percentages or a combination of both. */

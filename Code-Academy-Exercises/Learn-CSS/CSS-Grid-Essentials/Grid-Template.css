@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  grid-template: 40% 50% 50px / 100px 50% 200px;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* Both the grid-template-columns and the grid-template-rows properties can be
+replaced with the grid-template property. This property lets you define both
+columns and rows at once, separating their values with a forward slash. The
+values before the slash define the rows and the values after the slash define
+the columns. Pixels and percentages can still be used in combination. */

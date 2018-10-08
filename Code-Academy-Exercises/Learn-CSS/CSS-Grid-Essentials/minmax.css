@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  grid-template: repeat(3, 1fr) / 3fr minmax(50px, 300px) 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* In order to prevent a column or row from becoming too big or small when the
+browser is resized, the minmax function can be useful to define boundaries for
+rows and columns. You must first make the grid have a variable width by removing
+the width property of the grid. Then you can call the minmax function in the
+place of the column or row that you'd like to define. The parameters state that
+the row or column will always stay between the values that are set. */

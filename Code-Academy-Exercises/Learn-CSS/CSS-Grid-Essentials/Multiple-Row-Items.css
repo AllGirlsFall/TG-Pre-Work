@@ -1,0 +1,29 @@
+.grid {
+  display: grid;
+  border: 2px blue solid;
+  height: 500px;
+  width: 500px;
+  grid-template: repeat(4, 1fr 2fr) / repeat(4, 3fr 2fr);
+  grid-gap: 5px;
+}
+
+.a {
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* Single grid items can take up multiple rows using the grid-row-start and
+grid-row-end properties. Both row and column grid lines start at one and end at
+a value that is 1 greater than the number of defined rows and/or columns. When
+setting the value for grid-row-start the number should be the row at
+which you want the grid item to begin. For grid-row-end the value should
+be one greater than where you want the grid item to end. It's also possible to
+give both of these properties negative values as well as have the value of
+grid-row-start be greater than grid-row-end. */

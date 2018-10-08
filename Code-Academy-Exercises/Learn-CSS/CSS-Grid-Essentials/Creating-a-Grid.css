@@ -1,0 +1,19 @@
+.grid {
+  border: 2px blue solid;
+  width: 400px;
+  height: 500px;
+  display: grid;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
+
+/* In order to create a grid you must first have a grid container and grid items.
+The grid container is the parent element and is defined with the .grid class. All
+further styling and positioning will apply to the children within that grid. 
+You must also set the display property of the HTML element to grid or inline-grid
+in order to set other grid properties. */
