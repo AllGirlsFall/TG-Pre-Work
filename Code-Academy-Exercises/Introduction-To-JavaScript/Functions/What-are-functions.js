@@ -1,0 +1,2 @@
+/* Functions are a reusable block of code that perform calculations and can
+be called throughout a program instead of rewriting code. */
