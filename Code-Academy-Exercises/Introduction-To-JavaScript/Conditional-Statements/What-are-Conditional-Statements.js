@@ -1,2 +1,2 @@
 /* Conditional statements are statements which check specific conditions
-and fulfill a task based on that condition. 
+and fulfill a task based on that condition. */
