@@ -1,0 +1,10 @@
+{
+"presets" : ["env"]
+}
+
+/* Once the Babel packages have been downloaded the version of the source
+Javascript code needs to be specified. This can be done inside a file that is
+created with the touch keyword in the root directory (touch .babelrc). Inside the
+babelrc file is where you define the preset for your source JavaScript file. The
+code in the example above needs to be run to instruct Babel to transpile code
+from ES6+ and later. */
