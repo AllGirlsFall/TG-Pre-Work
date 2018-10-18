@@ -1,0 +1,5 @@
+/* The implicit grid is a built-in algorithm with specifications for the CSS
+grid. It determines the placement of elements when there are more elements that
+fit into the grid. The implicit grid's default behavior is that items fill up
+rows first and add more rows if necessary and these new rows have a height that
+supports the content and nothing more.  No exercise for this lesson. */
